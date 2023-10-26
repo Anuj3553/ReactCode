@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://0.0.0.0:27017');
+mongoose.connect('mongodb://0.0.0.0:27017/inotebook');
 
 const NotesSchema = new Schema({
     title:{

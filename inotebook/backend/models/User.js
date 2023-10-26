@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const {Schema} = mongoose
-mongoose.connect('mongodb://0.0.0.0:27017');
+mongoose.connect('mongodb://0.0.0.0:27017/inotebook');
 
 const UserSchema = new Schema({
     name:{
@@ -21,5 +21,6 @@ const UserSchema = new Schema({
         default : Date.now
     },
 })
-
-module.exports = mongoose.model('user', UserSchema);
+const User =  mongoose.model('user', UserSchema);
+User.createIndexes();
+module.exports = User;
