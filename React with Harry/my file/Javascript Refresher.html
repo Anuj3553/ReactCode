@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click here</button>
+    <h1 id="head">
+        I am learning js
+    </h1>
+</body>
+<script>
+    'use strict'
+    // let a = 34;
+    // console.log(a);
+    let hello = ()=>{
+        console.log("Hey Anuj Bhaiya");
+    }
+    let obj = {
+        r : 34,
+        m : 64,
+    };
+    
+    const btn = document.getElementById('btn');
+    const head = document.getElementById('head');
+    btn.addEventListener('click', ()=>{
+        if(head.style.display!='none'){
+            head.style.display = 'none';
+            console.log("Hide")
+        }
+        else{
+            head.style.display = 'block';
+            console.log("show")
+        }
+    });
+    let arr = [34, 243, 434, 43];
+    
+    // console.log("Anuj")
+    // setTimeout(() => {
+    //     console.log("This script is running")
+    // }, 5000);
+    // console.log("Yeah neeche wali script hai:)");
+
+</script>
+</html>
