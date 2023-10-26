@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 const mongoURI = "mongodb://0.0.0.0:27017/inotebook";
 
-const  connectToMongo = async()=>{
+const connectToMongo = async () => {
     try {
         mongoose.set('strictQuery', false)
-        mongoose.connect(mongoURI) 
+        mongoose.connect(mongoURI)
         console.log('Connected to Mongo Successfully')
-    } catch(error) {
+    } catch (error) {
         console.log(error)
     }
 }
