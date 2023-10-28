@@ -13,6 +13,60 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
+            "_id": "653aabdc1922f49a630970ac",
+            "user": "653a33f228c206c1a910ee3f",
+            "title": "Youtube",
+            "description": "Subscribe to my channel guys",
+            "tag": "personal",
+            "date": "2023-10-26T18:11:40.412Z",
+            "__v": 0
+        },
+        {
+            "_id": "653aabdc1922f49a630970ac",
+            "user": "653a33f228c206c1a910ee3f",
+            "title": "Youtube",
+            "description": "Subscribe to my channel guys",
+            "tag": "personal",
+            "date": "2023-10-26T18:11:40.412Z",
+            "__v": 0
+        },
+        {
+            "_id": "653aabdc1922f49a630970ac",
+            "user": "653a33f228c206c1a910ee3f",
+            "title": "Youtube",
+            "description": "Subscribe to my channel guys",
+            "tag": "personal",
+            "date": "2023-10-26T18:11:40.412Z",
+            "__v": 0
+        },
+        {
+            "_id": "653aabdc1922f49a630970ac",
+            "user": "653a33f228c206c1a910ee3f",
+            "title": "Youtube",
+            "description": "Subscribe to my channel guys",
+            "tag": "personal",
+            "date": "2023-10-26T18:11:40.412Z",
+            "__v": 0
+        },
+        {
+            "_id": "653aabdc1922f49a630970ac",
+            "user": "653a33f228c206c1a910ee3f",
+            "title": "Youtube",
+            "description": "Subscribe to my channel guys",
+            "tag": "personal",
+            "date": "2023-10-26T18:11:40.412Z",
+            "__v": 0
+        },
+        {
+            "_id": "653aabdc1922f49a630970ac",
+            "user": "653a33f228c206c1a910ee3f",
+            "title": "Youtube",
+            "description": "Subscribe to my channel guys",
+            "tag": "personal",
+            "date": "2023-10-26T18:11:40.412Z",
+            "__v": 0
+        },
+        {
             "_id": "653aac191922f49a630970b1",
             "user": "653a33f228c206c1a910ee3f",
             "title": "My Schedule",
