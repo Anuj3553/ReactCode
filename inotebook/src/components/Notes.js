@@ -5,8 +5,7 @@ import AddNote from "./AddNote";
 
 const Notes = () => {
     const context = useContext(noteContext);
-    // eslint-disable-next-line
-    const { notes, addNote } = context;
+    const { notes } = context;
     return (
         <div>
             <AddNote />
