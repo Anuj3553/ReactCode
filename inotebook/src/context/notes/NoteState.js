@@ -4,7 +4,7 @@ import { useState } from "react";
 const NoteState = (props) => {
     const notesInitial = [
         {
-            "_id": "653aabdc1922f49a630970ac",
+            "_id": "653aabdc193422f49a630970ac",
             "user": "653a33f228c206c1a910ee3f",
             "title": "Youtube",
             "description": "Subscribe to my channel guys",
@@ -13,7 +13,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "653aabdc1922f49a630970ac",
+            "_id": "653aabdc19dsds22f49a630970ac",
             "user": "653a33f228c206c1a910ee3f",
             "title": "Youtube",
             "description": "Subscribe to my channel guys",
@@ -22,7 +22,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "653aabdc1922f49a630970ac",
+            "_id": "653aabd223c1922f49a630970ac",
             "user": "653a33f228c206c1a910ee3f",
             "title": "Youtube",
             "description": "Subscribe to my channel guys",
@@ -31,7 +31,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "653aabdc1922f49a630970ac",
+            "_id": "653aabdc1922f344349a630970ac",
             "user": "653a33f228c206c1a910ee3f",
             "title": "Youtube",
             "description": "Subscribe to my channel guys",
@@ -40,7 +40,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "653aabdc1922f49a630970ac",
+            "_id": "653aabd232c1922f49a630970ac",
             "user": "653a33f228c206c1a910ee3f",
             "title": "Youtube",
             "description": "Subscribe to my channel guys",
@@ -49,7 +49,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "653aabdc1922f49a630970ac",
+            "_id": "653aabdc1922f4129a630970ac",
             "user": "653a33f228c206c1a910ee3f",
             "title": "Youtube",
             "description": "Subscribe to my channel guys",
@@ -58,7 +58,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "653aabdc1922f49a630970ac",
+            "_id": "653aab8789dc1922f49a630970ac",
             "user": "653a33f228c206c1a910ee3f",
             "title": "Youtube",
             "description": "Subscribe to my channel guys",
@@ -67,7 +67,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "653aac191922f49a630970b1",
+            "_id": "653aacu999191922f49a630970b1",
             "user": "653a33f228c206c1a910ee3f",
             "title": "My Schedule",
             "description": "12:30 bje tak aaj padhna hai",
