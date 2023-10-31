@@ -25,7 +25,7 @@ const Signup = (props) => {
       props.showAlert("Account Created Successfully", "success")
     }
     else {
-      props.showAlert("Invalid Credentials", "danger")
+      props.showAlert("User Already Exists", "danger")
     }
   }
 
@@ -34,7 +34,8 @@ const Signup = (props) => {
   }
 
   return (
-    <div className='container'>
+    <div className='container mt-2'>
+      <h2 className='my-3'>Create an Account to Use iNotebook</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>
@@ -51,11 +52,7 @@ const Signup = (props) => {
         </div>
         <div className="mb-3">
           <label htmlFor="cpassword" className="form-label">Confirm Password</label>
-          <input type="password" className="form-control" onChange={onChange} id="cpassword" name='cpassword' minLength={5} autoComplete='on' required />
-        </div>
-        <div className="mb-3 form-check">
-          <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-          <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
+          <input type="text" className="form-control" onChange={onChange} id="cpassword" name='cpassword' minLength={5} autoComplete='on' required />
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
